@@ -1,0 +1,33 @@
+{
+  "name": "h2box",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "nuxt": "nuxt",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "nuxt": "^3.12.2",
+    "vue": "^3.4.31"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.21.2",
+    "@iconify-json/noto": "^1.1.18",
+    "@iconify-json/ri": "^1.1.21",
+    "@nuxtjs/color-mode": "^3.4.2",
+    "@unocss/eslint-plugin": "^0.61.0",
+    "@unocss/nuxt": "^0.61.0",
+    "eslint": "^9.6.0",
+    "naive-ui": "^2.38.2",
+    "nuxtjs-naive-ui": "^1.0.2",
+    "unplugin-auto-import": "^0.17.6",
+    "unplugin-vue-components": "^0.27.2"
+  }
+}
