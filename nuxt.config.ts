@@ -7,7 +7,11 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
-  modules: ['nuxtjs-naive-ui', '@unocss/nuxt', '@pinia/nuxt'],
+  modules: ['nuxtjs-naive-ui', '@unocss/nuxt', '@pinia/nuxt', '@nuxtjs/color-mode'],
+  colorMode: {
+    preference: 'system',
+    fallback: 'light',
+  },
   vite: {
     plugins: [
       AutoImport({

@@ -21,17 +21,11 @@ useHead({
 </script>
 
 <template>
-  <div id="app">
-    <!-- <n-config-provider
-      :theme="themeRef"
-      :theme-overrides="themeRef === null ? lightThemeOverrides : darkThemeOverrides"
-    >
-      <n-message-provider>
-        <NuxtPage />
-      </n-message-provider>
-    </n-config-provider> -->
-    <NuxtPage />
-  </div>
+  <Provider>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </Provider>
 </template>
 
 <style>
